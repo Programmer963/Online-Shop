@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    margin: 0 auto;
+    /* width: 1903px; */
+    /* height: 873px; */
+    width: 100%;
+    height: 968px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://leadschool.in/wp-content/uploads/2022/04/shutterstock_1747360430.jpg);
+}
+.box{
+    width: 40%;
+    height: 65%;
+    background-color: rgb(73, 221, 196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    -webkit-box-shadow: 5px 5px 60px -5px rgba(57, 71, 82, 0.6);
+    -moz-box-shadow: 5px 5px 60px -5px rgba(57, 71, 82, 0.6);
+    box-shadow: 5px 5px 60px -5px rgba(57, 71, 82, 0.6);
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input{
+    border: none;    
+    border-bottom: 2px solid turquoise;
+    width: 60%;
+    height: 8%;
+    font-size: large;
+    margin-top: 30px;
+
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: 0px -5px 11px -3px rgba(57, 71, 82, 0.5);
+    -moz-box-shadow: 0px -5px 11px -3px rgba(57, 71, 82, 0.5);
+    box-shadow: 0px -5px 11px -3px rgba(57, 71, 82, 0.5);
+}
+
+.btn{
+    width: 61.5%;
+    height: 8%;
+    font-size: larger;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+p{
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
